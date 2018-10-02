@@ -657,6 +657,7 @@ boost_library(
         "boost/pending/container_traits.hpp",
         "boost/pending/queue.hpp",
         "boost/pending/indirect_cmp.hpp",
+        "boost/pending/relaxed_heap.hpp",
     ],
     deps = [
         ":mpl",
